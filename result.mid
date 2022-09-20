@@ -1,0 +1,24 @@
+D:\project\vue3\vite-ts-web3-vue
+├─index.html
+├─package.json
+├─pnpm-lock.yaml
+├─README.md
+├─tsconfig.json
+├─tsconfig.node.json
+├─vite.config.ts
+├─src
+|  ├─App.vue
+|  ├─env.d.ts
+|  ├─main.ts
+|  ├─components
+|  |     └HelloWorld.vue
+|  ├─assets
+|  |   └logo.png
+├─public
+|   └favicon.ico
+├─.vscode
+|    └extensions.json
+├─.idea
+|   ├─modules.xml
+|   ├─vite-ts-web3-vue.iml
+|   └workspace.xml
