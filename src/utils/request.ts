@@ -44,8 +44,6 @@ axios.interceptors.request.use(
 )
 const alertInformation = (async () => {
     const UserStore = useUserStore()
-    UserStore.setUserInfo(null)
-    UserStore.setUserCode(null)
     localStorage.clear()
     window.$message.warning('Login information expired please log in again')
     let url = location.origin + '/#/collections/trade'
